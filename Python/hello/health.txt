@@ -1,0 +1,82 @@
+while(True):
+ print("what you want data Update or Retrieve data\n","1. Update\n 2. Retrieve")
+ var1= int(input(" for Update press 1 and for Retrieve press 2\n"))
+ if var1==1:
+    print("select condidate** \n 1. Harry\n 2. Rohan\n 3. Hammad")
+    var2= int(input("(1,2,3)\n"))
+    if var2==1:
+        print("What you want update Exercise or Diet\n","1. Exercise\n 2. Diet")
+        var3=int(input("For Exercise press 1 and for Diet press 2\n"))
+        if var3==1:
+            f=open("HarryE.txt","a")
+            f.write(input("Exercise name today done\n"))
+            print("Successfully Done")
+        else:
+            f = open("HarryD.txt", "a")
+            f.write(input("Exercise name today done\n"))
+            print("Successfully Done")
+    elif var2==2:
+        print("What you want update Exercise or Diet\n","1. Exercise\n 2. Diet")
+        var3=int(input("For Exercise press 1 and for Diet press 2"))
+        if var3==1:
+            f = open("RohanE.txt", "a")
+            f.write(input("Exercise name today done\n"))
+            print("Successfully Done")
+        else:
+            f = open("RohanD.txt", "a")
+            f.write(input("Exercise name today done\n"))
+            print("Successfully Done")
+    else:
+        print("What you want update Exercise or Diet\n","1. Exercise\n 2. Diet")
+        var3=int(input("For Exercise press 1 and for Diet press 2"))
+        if var3==1:
+            f = open("HammadE.txt", "a")
+            f.write(input("Exercise name today done\n"))
+            print("Successfully Done")
+        else:
+            f = open("HammadD.txt", "a")
+            f.write(input("Exercise name today done\n"))
+            print("Successfully Done")
+
+
+ else:
+    print("select condidate** \n1. Harry\n2. Rohan\n3. Hammad")
+    var2 = int(input("(1,2,3)\n"))
+    if var2 == 1:
+        print("What you want update Exercise or Diet\n", "1. Exercise\n 2. Diet")
+        var3 = int(input("For Exercise press 1 and for Diet press 2"))
+        if var3 == 1:
+            f=open("HarryE.txt","r")
+            content=f.read()
+            print(content)
+        else:
+            f = open("HarryD.txt", "r")
+            content = f.read()
+            print(content)
+    elif var2 == 2:
+        print("What you want update Exercise or Diet\n", "1. Exercise\n 2. Diet")
+        var3 = int(input("For Exercise press 1 and for Diet press 2"))
+        if var3 == 1:
+            f = open("RohanE.txt", "r")
+            content = f.read()
+            print(content)
+        else:
+            f = open("RohanD.txt", "r")
+            content = f.read()
+            print(content)
+    else:
+        print("What you want update Exercise or Diet\n", "1. Exercise\n 2. Diet")
+        var3 = int(input("For Exercise press 1 and for Diet press 2"))
+        if var3 == 1:
+            f = open("HammadE.txt", "r")
+            content = f.read()
+            print(content)
+        else:
+            f = open("HammadD.txt", "r")
+            content = f.read()
+            print(content)
+ var4=input("For coniutue press y and for exit press n")
+ if var4=='y':
+     continue
+ else:
+     break

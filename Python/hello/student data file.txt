@@ -1,0 +1,11 @@
+while(True):
+    d1={"17cs15":{"Name":"Arvind Maurya","Branch":"CSIT"},}
+    d1.update({input("Rollno\n"):{input("Name\n"),input("Branch\n")}})
+    print("Enter the roll no of the student")
+    var1=input()
+    print(d1[(var1)])
+    var2=input("for continue enter y otherwise enter n")
+    if var2=='y':
+        continue
+    else:
+        break

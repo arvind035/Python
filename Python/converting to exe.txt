@@ -1,0 +1,22 @@
+pip install pyinstaller
+
+
+
+python .\main.txt
+
+
+
+
+pyinstaller main.txt
+
+
+.\main.exe
+
+
+
+pyinstaller --onefile file.py
+
+
+
+
+No source code associated with this video!

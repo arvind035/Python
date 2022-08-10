@@ -1,0 +1,6 @@
+# f=open("example.txt","r+w")
+# f.write(" new data All delete")
+# # cont=f.read()
+# print()
+# f.close()
+

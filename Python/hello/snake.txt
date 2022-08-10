@@ -1,0 +1,29 @@
+import random
+var=10;
+while(True):
+    print(" 1. Snake\n","2. Water\n","3. Gun")
+    var1=input("Select One item")
+    if var1==1:
+        print("You choose :Snake")
+    elif var1==2:
+        print("You choose :Water")
+    else:
+        print("You choose :Gun")
+    lst= ["Snake","Water","Gun"]
+    choice=random.choice(lst)
+    print("Compurer choose :",end="")
+    print(choice)
+    vary=0
+    varc=0
+    if var1==1 and choice=='water':
+        print("You win!")
+        vary=vary+1
+    elif var1==1 and choice=='Gun':
+        print("You loss!")
+        varc=varc+1
+    var=var-1
+    if var==0:
+        break
+    else:
+        continue
+

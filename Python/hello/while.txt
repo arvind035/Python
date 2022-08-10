@@ -1,0 +1,19 @@
+"""i=0
+while(True):
+    if i+1<5:
+      print("hello")
+      i = i + 1
+      continue
+    print(i)
+    if i==10:
+       break
+    i= i+1"""
+while(True):
+    print("Enter any Value")
+    var1=int(input())
+    if var1<100:
+        print("Try again")
+        continue
+    else:
+        print("Congtratulation to you, you have reached above or equal 100")
+        break
